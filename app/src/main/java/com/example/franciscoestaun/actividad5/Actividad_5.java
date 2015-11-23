@@ -16,9 +16,9 @@ public class Actividad_5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actividad_5);
-        Button send = (Button) findViewById(R.id.btnEnviar);
+        Button btnEnvio = (Button) findViewById(R.id.btnEnviar);
 
-        send.setOnClickListener(new View.OnClickListener() {
+        btnEnvio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int selected = -1;
