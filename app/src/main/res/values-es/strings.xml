@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica 5</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="rBtnAct1">Actividad 1</string>
+    <string name="rBtnAct2">Actividad 2</string>
+</resources>
