@@ -5,5 +5,14 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="colorFondo">#7700FFFF</color>
-    <color name="colorLetra">#FF0000</color>
+    <color name="colorLetra">#ff0d0d</color>
+
+    <color name="colorBtn1">#77FFFF</color>
+    <color name="colorLetra1">#ff0d0d</color>
+
+    <color name="colorBtn2">#FFFF77</color>
+    <color name="colorLetra2">#763b0e</color>
+
+    <color name="colorBtnNorm">#a8a9b1</color>
+    <color name="colorLetraNorm">#232323</color>
 </resources>

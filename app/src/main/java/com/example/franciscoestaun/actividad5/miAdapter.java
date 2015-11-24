@@ -43,7 +43,6 @@ public class miAdapter extends BaseAdapter {
     public String getFileName(int position) {
         return activity2.getResources().getResourceEntryName(imageIDs[position]);
     }
-
     //---returns an ImageView view---
     public View getView(int position, View convertView, ViewGroup parent) {
         ImageView imageView;

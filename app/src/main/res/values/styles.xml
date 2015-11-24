@@ -13,5 +13,6 @@
     </style>
     <style name="miEstilo" parent="Theme.AppCompat">
         <item name="android:textColor">@color/colorLetra</item>
+        <item name="android:textSize">20sp</item>
     </style>
 </resources>

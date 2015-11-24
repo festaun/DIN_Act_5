@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Activity_2 extends AppCompatActivity {
@@ -18,6 +19,9 @@ public class Activity_2 extends AppCompatActivity {
         final miAdapter adapter = new miAdapter(this, this);
         gView.setAdapter(adapter);
         gView.setOnItemClickListener(myItemclickListener(adapter));
+        final TextView txtTitulo = (TextView) findViewById(R.id.textView3);
+        String mensaje = adapter.getCount() +" " + getResources().getQuantityString(R.plurals.imagenes, adapter.getCount());
+        txtTitulo.setText(mensaje);
     }
 
     @NonNull

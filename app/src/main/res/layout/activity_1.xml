@@ -29,7 +29,9 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:hint="@string/txtPass"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        style="@style/miEstilo"
+        />
 
     <EditText
         android:layout_width="wrap_content"
@@ -42,13 +44,18 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/editText"
         android:layout_alignEnd="@+id/editText"
-        android:hint="@string/txtTlf" />
+        android:hint="@string/txtTlf"
+        style="@style/miEstilo"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="@string/btnOk"
         android:id="@+id/button2"
         android:layout_below="@+id/editText2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/btn_ok_color"
+        android:background="@drawable/coloresboton"
+        />
 </RelativeLayout>
