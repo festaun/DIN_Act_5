@@ -11,8 +11,8 @@
 
     <string name="btnOk">OK</string>
 
-    <string name="nombreAct1">Practica5 -> Actividad 1</string>
-    <string name="nombreAct2">Practica5 -> Actividad 2</string>
+    <string name="nombreAct1">Practica 5 -> Actividad 1</string>
+    <string name="nombreAct2">Practica 5 -> Actividad 2</string>
     <string-array name="actividades">
         <item>Actividad 1</item>
         <item>Actividad 2</item>

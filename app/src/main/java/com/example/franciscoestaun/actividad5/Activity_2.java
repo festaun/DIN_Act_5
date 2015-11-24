@@ -20,7 +20,7 @@ public class Activity_2 extends AppCompatActivity {
         gView.setAdapter(adapter);
         gView.setOnItemClickListener(myItemclickListener(adapter));
         final TextView txtTitulo = (TextView) findViewById(R.id.textView3);
-        String mensaje = adapter.getCount() +" " + getResources().getQuantityString(R.plurals.imagenes, adapter.getCount());
+        String mensaje ="Hay " +adapter.getCount()+" " +getResources().getQuantityString(R.plurals.imagenes, adapter.getCount());
         txtTitulo.setText(mensaje);
     }
 
