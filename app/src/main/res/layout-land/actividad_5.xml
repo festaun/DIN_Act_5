@@ -11,17 +11,19 @@
         android:id="@+id/spinActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:spinnerMode="dropdown" />
+        android:spinnerMode="dropdown"
+        android:entries="@array/actividades"
+        android:layout_above="@+id/btnEnviar"
+        android:layout_alignLeft="@+id/btnEnviar"
+        android:layout_alignStart="@+id/btnEnviar" />
 
     <Button
         android:id="@+id/btnEnviar"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/spinActivity"
-        android:layout_centerHorizontal="true"
-        android:text="@string/btnEnviar" />
+        android:text="@string/btnEnviar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

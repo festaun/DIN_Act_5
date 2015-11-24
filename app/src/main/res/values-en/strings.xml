@@ -2,6 +2,12 @@
 <resources>
     <string name="app_name">Practice 5</string>
     <string name="btnEnviar">Send</string>
-    <string name="rBtnAct1">Activity 1</string>
-    <string name="rBtnAct2">Activity 2</string>
+    <string name="act1">Activity 1</string>
+    <string name="act2">Activity 2</string>
+    <string name="txtPass">Password</string>
+    <string name="txtTlf">Phone</string>
+    <string-array name="actividades">
+        <item>Activity 1</item>
+        <item>Activity 2</item>
+    </string-array>
 </resources>

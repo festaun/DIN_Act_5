@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:checked="false"
-            android:text="@string/rBtnAct1" />
+            android:text="@string/act1" />
 
         <RadioButton
             android:id="@+id/rBtnAct2"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:checked="false"
-            android:text="@string/rBtnAct2" />
+            android:text="@string/act2" />
 
     </RadioGroup>
 
